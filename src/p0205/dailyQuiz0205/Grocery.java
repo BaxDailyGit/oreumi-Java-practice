@@ -1,7 +1,7 @@
 package p0205.dailyQuiz0205;
 
 class Grocery extends Product {
-    int discountAmount;
+    private int discountAmount;
 
     Grocery(String name, int price, int weight) {
         super(name, price, weight);

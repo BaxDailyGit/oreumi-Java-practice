@@ -8,6 +8,6 @@ public class Main {
 
         Cart cart = new Cart(new Product[]{beauty, grocery, largeAppliance});
         int totalDeliveryCharge = cart.calculateDeliveryCharge();
-        System.out.println(totalDeliveryCharge);
+        System.out.println("total Delivery Charge:"+ totalDeliveryCharge);
     }
 }
